@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "start": "node main.mjs"
+    "start": "node main.mjs",
+    "prettier:write": "prettier --write '*.mjs'"
+  },
+  "dependencies": {
+    "@ianvs/prettier-plugin-sort-imports": "^4.3.1",
+    "prettier": "^3.3.3"
   }
 }
